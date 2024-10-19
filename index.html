@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emulador Nintendo DS con Desmond</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Emulador Nintendo DS con Desmond</h1>
+      <desmond-player id="player"></desmond-player>
+      <div class="button-container">
+        <button id="saveStateBtn">Guardar Estado</button>
+        <button id="loadStateBtn">Cargar Estado</button>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/Unzor/desmond/cdn/desmond.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
