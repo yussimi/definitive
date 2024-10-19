@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Replace this with the URL to your NDS ROM file
-  const gameUrl = "https://example.com/path-to-your-game.nds";
+  const gameUrl = "prueba.nds";
 
   player.loadURL(gameUrl, function() {
     console.log("Game loaded successfully");
